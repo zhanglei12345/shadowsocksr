@@ -5,6 +5,11 @@ ShadowsocksR
 
 A fast tunnel proxy that helps you bypass firewalls.
 
+## My Docker
+
+`sudo docker run --restart=always -d -p hostPort:containerPort zhanglei12345/shadowsocksr:latest -p containerPort -k mypassword -m aes-256-cfb -O auth_sha1_v4 -o http_simple`
+
+
 Server
 ------
 
